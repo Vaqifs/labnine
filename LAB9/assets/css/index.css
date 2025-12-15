@@ -2,7 +2,7 @@
    CUSTOM THEME — ALL CHANGES GO HERE
    ======================================================================== */
 
-/* ========================
+/* = =======================
    1. TYPOGRAPHY SYSTEM
    ======================== */
 
@@ -203,3 +203,4 @@ tbody tr:nth-child(odd) {
 tbody tr:hover {
   background: #e5f0ff;
 }
+
