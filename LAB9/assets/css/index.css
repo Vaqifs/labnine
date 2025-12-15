@@ -3,7 +3,7 @@
    ======================================================================== */
 
 /* = =======================
-   1. TYPOGRAPHY SYSTEM
+    1. TYPOGRAPHY SYSTEM
    ======================== */
 
 body {
@@ -203,5 +203,6 @@ tbody tr:nth-child(odd) {
 tbody tr:hover {
   background: #e5f0ff;
 }
+
 
 
