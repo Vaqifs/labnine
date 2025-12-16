@@ -1,61 +1,83 @@
-%https://vaqifs.github.io/labnine/LAB9/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAB89</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAB89</title>
 
-     <!-- LINK TO YOUR CSS FILE -->
-    <link rel="stylesheet" href="assets/css/index.css">
+  <!-- LINK TO YOUR CSS FILE -->
+  <link rel="stylesheet" href="assets/css/index.css">
+
+  <!-- Hidden heading helper (keeps validator + accessibility happy) -->
+  <style>
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
 </head>
 
 <body>
 
-    <header class="navbar">
-        <div class="navbar-brand">My Project</div>
-        <nav class="navbar-nav">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-        </nav>
-    </header>
+  <header class="navbar">
+    <div class="navbar-brand">My Project</div>
+    <nav class="navbar-nav">
+      <a class="nav-link active" href="#">Home</a>
+      <a class="nav-link" href="#">About</a>
+    </nav>
+  </header>
 
+  <main>
     <section class="section-padding-md">
-        <h1>Hello Sir!</h1>
-        <p>This is a test paragraph to check typography and spacing.</p>
+      <h1>Hello Sir!</h1>
+      <p>This is a test paragraph to check typography and spacing.</p>
 
-        <a href="#">This is a link</a>
-        <br><br>
-        <button class="btn">Dont Click Me</button>
+      <a href="#">This is a link</a>
+      <br><br>
+      <button class="btn" type="button">Dont Click Me</button>
     </section>
 
     <section class="section-padding-md">
-        <div class="alert alert-info">
-             This is an info alert!
-        </div>
-        <div class="alert alert-success">
-            Success alert!
-        </div>
+      <h2 class="visually-hidden">Alerts</h2>
+
+      <div class="alert alert-info">
+        This is an info alert!
+      </div>
+      <div class="alert alert-success">
+        Success alert!
+      </div>
     </section>
 
     <section class="section-padding-md">
-        <h2>Styled Table Example</h2>
-        <table>
-            <thead>
-                <tr><th>Name</th><th class="num">Value</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>Item A</td><td class="num">10</td></tr>
-                <tr><td>Item B</td><td class="num">20</td></tr>
-            </tbody>
-        </table>
+      <h2>Styled Table Example</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th class="num">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Item A</td>
+            <td class="num">10</td>
+          </tr>
+          <tr>
+            <td>Item B</td>
+            <td class="num">20</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
+  </main>
 
 </body>
 </html>
-
-
-
-
-
-
